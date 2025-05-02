@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
-import { Ghost } from "lucide-react";
 
 export default function Navbar() {
     return (
@@ -10,7 +9,7 @@ export default function Navbar() {
             <li className="hover:underline">About Me</li>
             <li className="hover:underline">Projects</li>
         </ul>
-        <ul><Button variant={Ghost} className="bg-transparent border-3 border-black text-2xl font-bold rounded-none p-5 text-black shadow-custom hover:shadow-none">Contact Me</Button></ul>
+        <ul><Button variant={"ghost"} className="bg-transparent border-3 border-black text-2xl font-bold rounded-none p-5 text-black shadow-custom hover:shadow-none">Contact Me</Button></ul>
       </div>
     );
   }
