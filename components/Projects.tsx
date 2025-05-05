@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import {
 //   Drawer,
 //   DrawerClose,
@@ -11,6 +12,8 @@
 // import { Minus, Plus, BarChart } from "lucide-react";
 // import { Button } from "./ui/button";
 
+=======
+>>>>>>> 9107ab463da5b36bc7a998ae421f9716c3ee1887
 export default function Projects() {
   // function setGoal(arg0: number): import("react").ReactNode {
   //   throw new Error("Function not implemented.");
