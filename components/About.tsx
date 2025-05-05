@@ -1,6 +1,6 @@
 export default function About() {
   return (
-        <ul className="bg-amber-400 border-5 border-black p-[50px] h-[70vh] mt-[120px] gap-y-[20px] flex flex-col items-center justify-center">
+        <ul className="bg-amber-400 border-5 border-black p-[50px] h-[70vh] mt-[110px] gap-y-[20px] flex flex-col items-center justify-center">
              <li>
                 <h1 className="text-5xl font-bold text-center">About Me</h1>
             </li>

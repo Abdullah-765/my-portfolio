@@ -44,6 +44,9 @@
   --shadow-custom: 5px 5px 0px rgb(0, 0, 0); 
   --text-shadow-custom: 5px 5px 0px rgb(0,0,0)
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background: var(--background);

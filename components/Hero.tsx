@@ -19,7 +19,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="flex justify-around justify-self-center mt-[60px]">
+    <div className="flex justify-around justify-self-center mt-[100px]">
       <ul className="w-[40%] relative flex-col flex gap-y-[40px]">
         <li
           style={{ color: rgbRandom }}
