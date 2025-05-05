@@ -31,10 +31,14 @@ export default function ContactMe() {
                     "Content-Type": "application/json"
                 },
                 body: JSON.stringify(data),
+                
             })
+            console.log(response);
+            
         }
         catch(error){
             toast.error("form submission error")
+            console.log(error)
         } 
         finally{
             toast.success("Success I'll get back to you :)")
