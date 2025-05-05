@@ -31,8 +31,9 @@ export default function Hero() {
         I’m a frontend developer with a passion for clean UI and currently expanding into backend development.
         </li>
         <ul className="flex justify-evenly">
-        <Button variant={"ghost"} className="bg-amber-400 border-3 border-black text-2xl font-bold rounded-none p-5 text-black shadow-custom hover:shadow-none">Checkout My work</Button>
-        <Button variant={"ghost"} className="bg-amber-400 border-3 border-black text-2xl font-bold rounded-none p-5 text-black shadow-custom hover:shadow-none">Contact Me</Button>
+        <a href="#projects"><Button variant={"ghost"} className="bg-amber-400 border-3 border-black text-2xl font-bold rounded-none p-5 text-black shadow-custom hover:shadow-none">Checkout My work</Button></a>
+        <a href="#contact"><Button variant={"ghost"} className="bg-amber-400 border-3 border-black text-2xl font-bold rounded-none p-5 text-black shadow-custom hover:shadow-none">Contact Me</Button></a>
+        
         </ul>
       </ul>
 

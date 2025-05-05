@@ -7,9 +7,9 @@ export default function Navbar() {
         <Link href={"/"} className="text-4xl font-bold">Abdullah</Link>
         <ul className="flex gap-x-[30px]">
             <li className="hover:underline"><a href="#about">About Me</a></li>
-            <li className="hover:underline"><a href="">Projects</a></li>
+            <li className="hover:underline"><a href="#projects">Projects</a></li>
         </ul>
-        <ul><Button variant={"ghost"} className="bg-transparent border-3 border-black text-2xl font-bold rounded-none p-5 text-black shadow-custom hover:shadow-none">Contact Me</Button></ul>
+        <ul><a href="#contact"><Button variant={"ghost"} className="bg-transparent border-3 border-black text-2xl font-bold rounded-none p-5 text-black shadow-custom hover:shadow-none">Contact Me</Button></a></ul>
       </div>
     );
   }
