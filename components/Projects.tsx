@@ -67,7 +67,7 @@ export default function Projects() {
               </DrawerTrigger>
             </div>
             {/* Drawer Content */}
-            <DrawerContent className="[&>div:first-child]:hidden p-[20px] bg-amber-400 flex flex-row gap-x-[20px] items-center justify-center border-black border-3 rounded-none">
+            <DrawerContent className="[&>div:first-child]:hidden p-[20px] bg-amber-400 flex flex-row flex-wrap gap-x-[20px] items-center justify-center border-black border-3 rounded-none">
               {project.images && (
                 <Carousel className="w-full max-w-md">
                   <CarouselContent>
@@ -75,7 +75,7 @@ export default function Projects() {
                       <CarouselItem key={index}>
                         <div className="p-1">
                           <Card>
-                            <CardContent className="w-[300px] h-[300px] p-4 flex items-center justify-center">
+                            <CardContent className="max-w-[300px] max-h-[300px] p-4 flex items-center justify-center">
                               <img
                                 src={image}
                                 alt="project screenshot"
@@ -92,7 +92,7 @@ export default function Projects() {
                 </Carousel>
               )}
 
-              <div className="w-[40%] flex flex-col items-center justify-center">
+              <div className="md:w-[40%] w-fit flex flex-col items-center justify-center">
                 <DrawerHeader>
                   <DrawerTitle className="text-3xl text-center font-bold">
                     {project.name}

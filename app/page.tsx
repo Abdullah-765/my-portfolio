@@ -5,7 +5,7 @@ import Projects from "@/components/Projects";
 import ContactMe from "@/components/contact";
 export default function Home() {
   return (
-    <div>
+    <div className="md:p-[5px]">
       <section id="hero"><Hero/></section>
       <section id="about"><About/></section>
       <section id="skills"><Skills/></section>

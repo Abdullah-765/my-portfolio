@@ -19,20 +19,20 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="flex justify-around justify-self-center mt-[100px]">
-      <ul className="w-[40%] relative flex-col flex gap-y-[40px]">
+    <div className="flex items-center justify-around justify-self-center mt-[100px] gap-y-[20px] lg:flex-row md:flex-row flex-col p-[10px] ">
+      <ul className="sm:w-[40%] w-full relative flex-col flex gap-y-[40px]">
         <li
           style={{ color: rgbRandom }}
-          className="transition-colors duration-1000 text-9xl font-bold text-shadow-custom" 
+          className="transition-colors duration-1000 text-6xl md:text-[10vw] lg:leading-28 font-bold text-shadow-custom" 
         >
           Abdullah <br /><span className="text-amber-400">Arshad</span>
         </li>
-        <li className="text-2xl">
+        <li className="text-lg">
         I’m a frontend developer with a passion for clean UI and currently expanding into backend development.
         </li>
-        <ul className="flex justify-evenly">
-        <a href="#projects"><Button variant={"ghost"} className="bg-amber-400 border-3 border-black text-2xl font-bold rounded-none p-5 text-black shadow-custom hover:shadow-none">Checkout My work</Button></a>
-        <a href="#contact"><Button variant={"ghost"} className="bg-amber-400 border-3 border-black text-2xl font-bold rounded-none p-5 text-black shadow-custom hover:shadow-none">Contact Me</Button></a>
+        <ul className="flex justify-between items-center gap-[10px] flex-wrap">
+        <a href="#projects"><Button variant={"ghost"} className="bg-amber-400 border-3 border-black text-xl font-bold rounded-none p-5 text-black shadow-custom hover:shadow-none">Checkout My work</Button></a>
+        <a href="#contact"><Button variant={"ghost"} className="bg-amber-400 border-3 border-black text-xl font-bold rounded-none p-5 text-black shadow-custom hover:shadow-none">Contact Me</Button></a>
         
         </ul>
       </ul>

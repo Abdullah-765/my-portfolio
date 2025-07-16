@@ -19,16 +19,16 @@ export default function Skills() {
       id="skills"
       className="py-20 px-10  border-black "
     >
-      <h2 className="text-5xl font-bold mb-10 text-center">Skills</h2>
+      <h2 className="md:text-5xl text-3xl font-bold mb-10 text-center">Skills</h2>
 
       <div className="grid grid-cols-2 align-center sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
         {[
           { name: "HTML", src: "/skills/html.svg" },
-          { name: "CSS / Tailwind", src: "/skills/tailwind.svg" },
+          { name: "Tailwind CSS", src: "/skills/tailwind.svg" },
           { name: "JavaScript", src: "/skills/javascript.svg" },
           { name: "TypeScript", src: "/skills/typescript.svg" },
           { name: "Next.js", src: "/skills/nextjs.svg" },
-          { name: "Python (Learning)", src: "/skills/python.svg" },
+          { name: "Python", src: "/skills/python.svg" },
           { name: "Git", src: "/skills/git.svg" },
         ].map(({ name, src }) => (
           <div key={name} className="bg-amber-400 ">

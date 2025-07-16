@@ -48,13 +48,13 @@ export default function ContactMe() {
 
 
   return (
-    <section id="contact" className="border-4 justify-self-center border-black w-fit p-10 mt-20 shadow-custom">
+    <section id="contact" className="border-4 justify-self-center border-black sm:w-[500px] w-full p-10 mt-20 shadow-custom">
       <h2 className="text-5xl font-bold mb-6">Contact Me</h2>
       <form className="flex flex-col gap-5 max-w-xl" onSubmit={handleSubmit(onSubmit)}>
         <input
           type="text"
           placeholder="Your Name"
-          className="border-2 w-[500px] border-black p-4"
+          className="border-2 border-black p-4"
           {...register("name")}
         />
         {errors.name && <span className="text-red-500">{errors.name.message}</span>}
