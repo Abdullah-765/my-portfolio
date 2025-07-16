@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import { Space_Grotesk } from 'next/font/google'
-
-const spaceGrotesk = Space_Grotesk({
-  subsets: ['latin'],
-  variable: '--font-space-grotesk',
-  weight: ['400', '500', '600', '700'], // choose the weights you need
-  display: 'swap',
-})
+// import { Space_Grotesk } from 'next/font/google'
+// const spaceGrotesk = Space_Grotesk({
+//   subsets: ['latin'],
+//   variable: '--font-space-grotesk',
+//   weight: ['400', '500', '600', '700'], // choose the weights you need
+//   display: 'swap',
+// })
 
 
 export const metadata: Metadata = {
@@ -23,7 +22,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${spaceGrotesk.variable} antialiased`}
+        // className={`${spaceGrotesk.variable} antialiased`}
+        className="font-serif"
       >
         <Navbar/>
         {children}

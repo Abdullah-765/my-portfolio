@@ -23,7 +23,7 @@ export default function Hero() {
       <ul className="sm:w-[40%] w-full relative flex-col flex gap-y-[40px]">
         <li
           style={{ color: rgbRandom }}
-          className="transition-colors duration-1000 text-6xl md:text-[10vw] lg:leading-28 font-bold text-shadow-custom" 
+          className="transition-colors duration-1000 text-6xl md:text-[8vw] lg:leading-28 font-bold text-shadow-custom" 
         >
           Abdullah <br /><span className="text-amber-400">Arshad</span>
         </li>
