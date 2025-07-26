@@ -12,7 +12,7 @@ export default function About() {
             Currently, I am exploring the intersection of web development and AI, with a special focus on agentic AI systems—intelligent agents that can reason, plan, and interact with users in meaningful ways. My aim is to integrate these AI capabilities into full stack projects to build smarter, more adaptive applications.
             </li>
             <li className="md:text-2xl text-[16px] text-center">
-              I love combining clean code with creative ideas, and I'm always eager to learn new tools and technologies to push what's possible on the web.
+              I love combining clean code with creative ideas, and I am always eager to learn new tools and technologies to push what is possible on the web.
             </li>
             <ul className="flex gap-x-[20px]">
               <li><a target="_" href="https://www.linkedin.com/in/abdullah-arshad-6b4949284/"><Image width={50} height={50} alt="github-link" src={"/links/github.svg"}/></a></li>
