@@ -6,10 +6,10 @@ export default function About() {
                 <h1 className="md:text-5xl text-3xl font-bold text-center">About Me</h1>
             </li>
             <li className="md:text-2xl text-[16px] text-center">
-            Hi, I’m Abdullah, a dedicated Full Stack Developer passionate about creating modern, user-centric web applications. I build intuitive front-end experiences using React, Next.js, and Tailwind CSS, while actively expanding my backend skills through Python. 
+            Hi, I am Abdullah, a dedicated Full Stack Developer passionate about creating modern, user-centric web applications. I build intuitive front-end experiences using React, Next.js, and Tailwind CSS, while actively expanding my backend skills through Python. 
             </li>
             <li className="md:text-2xl text-[16px] text-center">
-            Currently, I’m exploring the intersection of web development and AI, with a special focus on agentic AI systems—intelligent agents that can reason, plan, and interact with users in meaningful ways. My aim is to integrate these AI capabilities into full stack projects to build smarter, more adaptive applications.
+            Currently, I am exploring the intersection of web development and AI, with a special focus on agentic AI systems—intelligent agents that can reason, plan, and interact with users in meaningful ways. My aim is to integrate these AI capabilities into full stack projects to build smarter, more adaptive applications.
             </li>
             <li className="md:text-2xl text-[16px] text-center">
               I love combining clean code with creative ideas, and I'm always eager to learn new tools and technologies to push what's possible on the web.
