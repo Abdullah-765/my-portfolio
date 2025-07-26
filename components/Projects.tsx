@@ -43,7 +43,8 @@ export default function Projects() {
       github: "https://github.com/Abdullah-765/milestone-based-resume-builder",
       live: "https://dynamic-resume-builder-mu-six.vercel.app/",
     },
-    { name: "Project", github: "", live: "", description: "Coming soon..." },
+    { name: "Ai Quote Buddy", github: "https://github.com/Abdullah-765/AI-quote-buddy", live: "https://ai-quote-buddy.vercel.app/", description: "A heart-driven quote generator powered by artificial intelligence, designed to lift moods and spark reflection. This project was built using Next.js, with OpenAI's GPT model integrated to generate emotionally resonant quotes on demand. The clean UI, minimal design, and seamless interactions make it a calming experience.",
+     },
     { name: "Project", github: "", live: "", description: "Coming soon..." },
   ];
 
